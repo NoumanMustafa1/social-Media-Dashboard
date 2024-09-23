@@ -1,0 +1,40 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #002F63; /* Dark red background for operational feel */
+  padding: 20px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+  color: #ffffff; /* White text color */
+  z-index: 1000;
+}
+
+.sidebar:hover {
+  background-color: #4a1a1a; /* Slightly lighter red on hover */
+}
+
+.sidebar-link {
+  color: #ffcccc; /* Light pink for better readability */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+  padding: 10px 15px; /* Padding for better click area */
+  border-radius: 5px; /* Rounded corners for links */
+  margin: 5px 0; /* Space between links */
+}
+
+.sidebar-link:hover {
+  background-color: #a62d2d; /* Medium red on hover */
+  color: #ffffff; /* Brighten text color on hover */
+}
+
+.nav-link.active {
+  font-weight: bold; /* Highlight active link */
+  background-color: #5a2e2e; /* Background for active link */
+  color: #ffffff; /* Ensure active link text is white */
+  border-radius: 5px; /* Match the rounded corners */
+}
+
+body {
+  background-color: #121212; /* Keep the main background dark */
+}
