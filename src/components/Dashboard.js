@@ -19,7 +19,8 @@ const Dashboard = () => {
 
   return (
     <Container fluid style={{ marginTop: '2rem', marginLeft: '250px', maxWidth: 'calc(100% - 250px)', backgroundColor: '#121212', color: '#ffffff', padding: '20px', borderRadius: '8px' }}>
-      <h4 className="neon-text">Overview</h4>
+      <h1 className="neon-text" style={{ textAlign: "center", background :'#393939' }}>Overview</h1>
+
       <div className="d-flex justify-content-end mb-3">
         <ExportButton />
       </div>

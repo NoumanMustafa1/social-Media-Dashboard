@@ -4,27 +4,28 @@
   left: 0;
   height: 100%;
   width: 250px;
-  background-color: #002F63; /* Dark red background for operational feel */
+  background-color: #4E537A; /* Dark red background for operational feel */
   padding: 20px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
-  color: #ffffff; /* White text color */
+  color: #ffff; /* White text color */
   z-index: 1000;
 }
 
 .sidebar:hover {
-  background-color: #4a1a1a; /* Slightly lighter red on hover */
+  background-color: #4E5370; /* Slightly lighter red on hover */
 }
 
 .sidebar-link {
-  color: #ffcccc; /* Light pink for better readability */
+  color: #f3f3f3; /* Light pink for better readability */
   transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
   padding: 10px 15px; /* Padding for better click area */
   border-radius: 5px; /* Rounded corners for links */
   margin: 5px 0; /* Space between links */
+  font-size: medium;
 }
 
 .sidebar-link:hover {
-  background-color: #a62d2d; /* Medium red on hover */
+  background-color: #d8d8df; /* Medium red on hover */
   color: #ffffff; /* Brighten text color on hover */
 }
 
